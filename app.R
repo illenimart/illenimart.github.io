@@ -10,7 +10,7 @@ il_songs <- data.frame(id = 1:2,
                        url = c("https://www.youtube.com/embed/fJVoozJ7IPE&ab_channel=ILLENIUM", "https://www.youtube.com/embed/E1ZCQqQhRTU?start=2823"))
 # UI
 ui <- fluidPage(
-  titlePanel("Random Song URL"),
+  titlePanel("When tears?"),
   sidebarLayout(
     sidebarPanel(
       br(),

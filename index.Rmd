@@ -1,7 +1,45 @@
 ---
-title: "Holy cow!"
+title: "Welcome to Illenimart!"
 ---
 
-### Welcome to Illenimart!
 
-And I can put all kinds of stuff on it!
+## Zelos, WTF is this?!?! Illenimart??
+
+Illenimart is your one stop shop to celebrate the **BIGGEST** names in EDM and my absolute favorite electronic artists: Illenium and Martin Garrix. I am **EXTREMELY** excited to announce a *once in a lifetime opportunity* to see them **BOTH**, yes I just said **BOTH**, on back-to-back nights nonetheless, this autumn, beholding witness to their **ELECTRIFYING** performances...... in.......
+
+
+```{r, echo = FALSE}
+library(htmltools)
+shiny::actionButton("show_table_button", 
+                    label = "SHOW ME WHERE", 
+                    onclick = "button_handler()")
+
+div(id = "tableContainer", 
+    hidden = "true",
+    h1("AMSTERDAM, NETHERLANDS"))
+```
+
+
+```{js, echo = FALSE}
+function button_handler() {
+  document.getElementById('tableContainer').hidden = false;
+}
+```
+
+Thats right, you did not misread that in any capacity. I'm tryna pull the ultimate mission flying thousands of miles to accomplish this. But more importantly.......**I WANT YOU TO JOIN ME** for said back-to-back legendary shows, October 20-21, 2023. 
+
+Z, you must be out of your mind, are you really gonna go to Amsterdam just to see Illenium and Martin?!?
+
+Yup! And let me tell you why you should go too:
+
+### About Martin Garrix
+
+<br><left><img src="Images/martin.jpeg" alt="logo" style="width:45%; border:2px solid"/><br>
+
+The **LEGENDARY** Martijn Gerard Garritsen, known for his stage name, MARTIN GARRIX, is my favorite lil Dutch boi DJ, and GOATED record producer. Notoriously known as the *absolute best* show he puts on every year, Martin has actually been unavailable to perform his Amsterdam show since 2019 due to COVID. **THIS YEAR** he makes his long awaited return, which only means he pullin out all the stops. I'm talkin pyro, I'm talking lights, I'm talkin lasers, nothing is going to stop this man from absolutely throwing down. Having gained international recognition with his hit single "Animals" in 2013 which we all know, he has since released so many other **BANGERS**, some of my favorites include: "Proxy", "Together", "High on Life", "Quantum". Truth be told there's many, many, **MANY** more. In addition to his music, Garrix is also known for his philanthropic efforts and founder of the STMPD RCRDS label and the STMPD RCRDS Foundation. STMPD RCRDS hosts a plethora up and rising stars, some of which include Brooks and Julian Jordan who may just open for the homecoming show.
+
+### About Illenium
+
+<br><left><img src="Images/illenium.jpeg" alt="logo" style="width:45%; border:2px solid"/><br>
+
+Our **FAVORITE** hometown hero, Nicholas D. Miller, known for his stage name, ILLENIUM, is an American DJ, and more importantly king SADBOI. He has released four studio albums to date, with a fifth one coming shortly, in a short span of seven years. Illenium has skyrocketed up the charts faster than I ever could have imagined and there's no doubt in my mind his songs have pierced through your soul as well. Due to his popularity in the United States, our favorite sadboi only plays in massive venues now including football stadiums and it has proven rather difficult to see him in smaller intimate settings. AMSTERDAM is hosting our bay-area native in a 1500-person capacity venue and it is obviously a must see show, as his former roommate, Trevor, aka Said the Sky opens for him as well. We all know this feeling.... when something like "Take You Down" comes on, when you're finally able to take a breather from the headbanging as Illenium slows its down, hearing the guitar riff in the background, the shock traveling up your spine, sending chills across your now tingling arms and legs as you come up grasping for air in the heat of the BILL GRAHAM CIVIC AUDITORIUM. This is your chance, perhaps you ask for water, or perhaps its gum. A break to maybe take off your extra shirt you wore. Maybe you even wrap your arm around the person you're next to and tell them how much you love them and how special they are to you. Enveloped with goosebumps, you've taken those 80 seconds before the drop comes to recalibrate and just take in the moment of what I can only call sadboi euphoria. **THESE ARE THE MOMENTS YOU LIVE FOR, THESE ARE THE MOMENTS BURNED INTO YOUR BRAINS AS MEMORIES**. Now imagine it in a room where there truly is no bad seat in the house, on vacation... in a foreign country.
