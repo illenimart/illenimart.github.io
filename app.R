@@ -4,10 +4,10 @@ library(tibble)
 # Song data
 mg_songs <- data.frame(id = 1:2,
                        song = c("me cri", "me cri2"),
-                       url = c("https://www.youtube.com/embed/o3YadwGH0ZA&t=1962s", "https://www.youtube.com/embed/o3YadwGH0ZA?t=3819"))
+                       url = c("https://www.youtube.com/embed/o3YadwGH0ZA?start=1962", "https://www.youtube.com/embed/o3YadwGH0ZA?start=3819"))
 il_songs <- data.frame(id = 1:2,
                        song = c("sadboi1", "sadboi2"),
-                       url = c("https://www.youtube.com/embed/fJVoozJ7IPE&ab_channel=ILLENIUM", "https://www.youtube.com/embed/E1ZCQqQhRTU?t=2823"))
+                       url = c("https://www.youtube.com/embed/fJVoozJ7IPE&ab_channel=ILLENIUM", "https://www.youtube.com/embed/E1ZCQqQhRTU?start=2823"))
 # UI
 ui <- fluidPage(
   titlePanel("Random Song URL"),
