@@ -2,6 +2,6 @@
 title: "Holy cow!"
 ---
 
-### I have a webpage!
+### Welcome to Illenimart!
 
 And I can put all kinds of stuff on it!
