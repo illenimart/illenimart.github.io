@@ -7,7 +7,7 @@ mg_songs <- data.frame(id = 1:2,
                        url = c("https://www.youtube.com/embed/o3YadwGH0ZA?start=1962", "https://www.youtube.com/embed/o3YadwGH0ZA?start=3819"))
 il_songs <- data.frame(id = 1:2,
                        song = c("sadboi1", "sadboi2"),
-                       url = c("https://www.youtube.com/embed/fJVoozJ7IPE&ab_channel=ILLENIUM", "https://www.youtube.com/embed/E1ZCQqQhRTU?start=2823"))
+                       url = c("https://www.youtube.com/embed/fJVoozJ7IPE", "https://www.youtube.com/embed/E1ZCQqQhRTU?start=2823"))
 # UI
 ui <- fluidPage(
   titlePanel("When tears?"),
