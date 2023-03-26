@@ -1,9 +1,7 @@
 ---
-title: "About"
+title: "Get Psyched"
 ---
 
-### About this site
+### What's more fun that new music?
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
-
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+<iframe src="https://illenimart.shinyapps.io/illenimart/" width="90%" height="600px"></iframe>
