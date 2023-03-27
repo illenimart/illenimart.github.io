@@ -66,7 +66,7 @@ div(id = "swisspic",
 
 div(id = "why",
     hidden = "true", 
-    HTML("Because my favorite time of the year to appreciate everything nature has to provide is autumn, and guess what late October, its PEAK foliage season, like come on LOOK at this"))
+    HTML("Because my favorite time of the year to appreciate everything nature has to provide is autumn, and guess what?!?! Late October is PEAK foliage season, like come on LOOK at this, if the concerts didn't make you cry this definitely will."))
 ```
 
 
