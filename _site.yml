@@ -13,7 +13,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<illenimart@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/illenimart/
+      href: http://github.com/Martillenium/
 output:
   html_document:
     theme: darkly

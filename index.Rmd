@@ -1,11 +1,11 @@
 ---
-title: "Welcome to Illenimart!"
+title: "Welcome to Martillenium!"
 ---
 
 
-## Zelos, WTF is this?!?! Illenimart??
+## Zelos, WTF is this?!?! Martillenium??
 
-Illenimart is your one stop shop to celebrate the **BIGGEST** names in EDM and my absolute favorite electronic artists: Illenium and Martin Garrix. I am **EXTREMELY** excited to announce a *once in a lifetime opportunity* to see them **BOTH**, yes I just said **BOTH**, on back-to-back nights nonetheless, this autumn, beholding witness to their **ELECTRIFYING** performances...... in.......
+Martillenium is your one stop shop to celebrate the **BIGGEST** names in EDM and my absolute favorite electronic artists: Illenium and Martin Garrix. I am **EXTREMELY** excited to announce a *once in a lifetime opportunity* to see them **BOTH**, yes I just said **BOTH**, on back-to-back nights nonetheless, this autumn, beholding witness to their **ELECTRIFYING** performances...... in.......
 
 
 ```{r, echo = FALSE}
