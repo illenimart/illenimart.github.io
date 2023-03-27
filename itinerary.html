@@ -11,7 +11,7 @@
 
 
 
-<title>Welcome to Illenimart!</title>
+<title>Itinerary</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,6 +227,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -231,6 +297,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -279,113 +355,136 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Welcome to Illenimart!</h1>
+<h1 class="title toc-ignore">Itinerary</h1>
 
 </div>
 
 
-<div id="zelos-wtf-is-this-illenimart" class="section level2">
-<h2>Zelos, WTF is this?!?! Illenimart??</h2>
-<p>Illenimart is your one stop shop to celebrate the
-<strong>BIGGEST</strong> names in EDM and my absolute favorite
-electronic artists: Illenium and Martin Garrix. I am
-<strong>EXTREMELY</strong> excited to announce a <em>once in a lifetime
-opportunity</em> to see them <strong>BOTH</strong>, yes I just said
-<strong>BOTH</strong>, on back-to-back nights nonetheless, this autumn,
-beholding witness to their <strong>ELECTRIFYING</strong> performances……
-in…….</p>
-<button id="show_table_button" type="button" class="btn btn-default action-button" onclick="button_handler()">SHOW ME WHERE</button>
-<div id="tableContainer" hidden="true">
-<h1>AMSTERDAM, NETHERLANDS</h1>
+<div id="disclaimer" class="section level2">
+<h2>Disclaimer</h2>
+<ul>
+<li>This a rough draft for now please go to the <a
+href="./googlesheets.html">ideaboard</a> if you have ideas or want to
+join!</li>
+</ul>
 </div>
-<script type="text/javascript">
-function button_handler() {
-  document.getElementById('tableContainer').hidden = false;
-}
-</script>
-<p>Thats right, you did not misread that in any capacity. I’m tryna pull
-the ultimate mission flying thousands of miles to accomplish this. But
-more importantly…….<strong>I WANT YOU TO JOIN ME</strong> for said
-back-to-back legendary shows, October 20-21, 2023.</p>
-<p>Z, you must be out of your mind, are you really gonna go to Amsterdam
-just to see Illenium and Martin?!?</p>
-<p>Yup! And let me tell you why you should go too:</p>
-<div id="about-martin-garrix" class="section level3">
-<h3>About Martin Garrix</h3>
-<p><br><left><img src="Images/martin.jpeg" alt="logo" style="width:45%; border:2px solid"/><br></p>
-<p>The <strong>LEGENDARY</strong> Martijn Gerard Garritsen, known for
-his stage name, MARTIN GARRIX, is my favorite lil Dutch boi DJ, and
-GOATED record producer. Notoriously known as the <em>absolute best</em>
-show he puts on every year, Martin has actually been unavailable to
-perform his Amsterdam show since 2019 due to COVID. <strong>THIS
-YEAR</strong> he makes his long awaited return, which only means he
-pullin out all the stops. I’m talkin pyro, I’m talking lights, I’m
-talkin lasers, nothing is going to stop this man from absolutely
-throwing down. Having gained international recognition with his hit
-single “Animals” in 2013 which we all know, he has since released so
-many other <strong>BANGERS</strong>, some of my favorites include:
-“Proxy”, “Together”, “High on Life”, “Quantum”. Truth be told there’s
-many, many, <strong>MANY</strong> more. In addition to his music, Garrix
-is also known for his philanthropic efforts and founder of the STMPD
-RCRDS label and the STMPD RCRDS Foundation. STMPD RCRDS hosts a plethora
-up and rising stars, some of which include Brooks and Julian Jordan who
-may just open for the homecoming show.</p>
+<div id="october-18th-2023" class="section level2">
+<h2>October 18th, 2023</h2>
+<ul>
+<li>Grab your passports, get on the plane, its time to cri</li>
+<li>Flights out of LAX seem to be a lot cheaper, or perhaps you want to
+go to NYC the weekend before as a first-leg. How you get there is up to
+you!</li>
+</ul>
 </div>
-<div id="about-illenium" class="section level3">
-<h3>About Illenium</h3>
-<p><br><left><img src="Images/illenium.jpeg" alt="logo" style="width:45%; border:2px solid"/><br></p>
-<p>Our <strong>FAVORITE</strong> hometown hero, Nicholas D. Miller,
-known for his stage name, ILLENIUM, is an American DJ, and more
-importantly king SADBOI. He has released four studio albums to date,
-with a fifth one coming shortly, in a short span of seven years.
-Illenium has skyrocketed up the charts faster than I ever could have
-imagined and there’s no doubt in my mind his songs have pierced through
-your soul as well. Due to his popularity in the United States, our
-favorite sadboi only plays in massive venues now including football
-stadiums and it has proven rather difficult to see him in smaller
-intimate settings. AMSTERDAM is hosting our bay-area native in a
-1500-person capacity venue and it is obviously a must see show, as his
-former roommate, Trevor, aka Said the Sky opens for him as well. We all
-know this feeling…. when something like “Take You Down” comes on, when
-you’re finally able to take a breather from the headbanging as Illenium
-slows its down, hearing the guitar riff in the background, the shock
-traveling up your spine, sending chills across your now tingling arms
-and legs as you come up grasping for air in the heat of the BILL GRAHAM
-CIVIC AUDITORIUM. This is your chance, perhaps you ask for water, or
-perhaps its gum. A break to maybe take off your extra shirt you wore.
-Maybe you even wrap your arm around the person you’re next to and tell
-them how much you love them and how special they are to you. Enveloped
-with goosebumps, you’ve taken those 80 seconds before the drop comes to
-recalibrate and just take in the moment of what I can only call sadboi
-euphoria. <strong>THESE ARE THE MOMENTS YOU LIVE FOR, THESE ARE THE
-MOMENTS BURNED INTO YOUR BRAINS AS MEMORIES</strong>. Now imagine it in
-a room where there truly is no bad seat in the house, on vacation… in a
-foreign country.</p>
+<div id="october-19th-2023" class="section level2">
+<h2>October 19th, 2023</h2>
+<ul>
+<li>Check-in to the hotel/hostel/airbnb, it looks like staying near the
+Van Gogh Museum may prove ideal</li>
+<li>Cheese tasting: The Dutch eat a lot of cheese, so we definitely have
+to sample and purchase A TON of cheese, Albert Cuyp Market is apparently
+<strong>THE</strong> thing to do</li>
+<li>Perhaps even visit the Van Gogh Museum, closes at 8pm</li>
+<li>Gauge the level of ambition based on jetlag/energy levels, booze up
+with some locals?</li>
+</ul>
 </div>
+<div id="october-20th-2023" class="section level2">
+<h2>October 20th, 2023</h2>
+<ul>
+<li>Hop on your bike! We goin’ for a ride, taking in the beautiful
+scenery of Amsterdam’s charming neighborhoods, <strong>THE
+CANALS</strong>, and other beautiful folksy historical landmarks</li>
+<li>Every major metropolitan city in the world has world class art and
+design, I expect no less from Amsterdam. Put on your artist beret, it’s
+time to visit galleries, museums, and shops. Maybe you’ll go home with a
+piece of Dutch artwork from their 17th century global empire golden
+days</li>
+<li>We’re already in the Netherlands right? Time to pound some Heineys
+and visit the legendary Heineken brewery, go home with an engraved glass
+with your name on it</li>
+<li><a
+href="https://www.ticketmaster.nl/event/illenium-live-tickets/290771">TIME
+TO CRI</a>, did I mention if we stay near the Van Gogh, its a 10 minute
+walk?!?!</li>
+</ul>
 </div>
-<div id="but-wait-theres-more" class="section level1">
-<h1>BUT WAIT…… THERE’S MORE?!?!?!?!</h1>
-<p>Z, How could there possibly be more, being so ridiculous now. What
-bag of tricks can you possibly have left up your sleeve?</p>
-<button id="show_table_button2" type="button" class="btn btn-default action-button" onclick="button_handler2()">OKAY THIS IS MY LAST TRICK</button>
-<div id="show_swiss" hidden="true">
-<h1>WE'RE GOING TO SWITZERLAND!!!</h1>
+<div id="october-21st-2023" class="section level2">
+<h2>October 21st, 2023</h2>
+<ul>
+<li>We love ourselves some <strong>CANALS</strong>, so we’ll go on a
+canal tour and learn more about Amsterdam’s fascinating history and
+unique architecture. Give our legs a break and see the city from a
+different perspective.</li>
+<li>Spare time we should go see what we grab stuff off the idea board of
+things to do</li>
+<li><a href="https://martingarrixade.com/">ARE YOU READY?!?!</a></li>
+</ul>
 </div>
-<div id="swisspic" hidden="true">
-<img src="Images/swissfall.jpeg" alt="logo" style="width:45%; border:2px solid;"/>
+<div id="october-22nd-2023" class="section level2">
+<h2>October 22nd, 2023</h2>
+<ul>
+<li>Say goodbye to the 17th century, we jumping straight to the 19th
+century, to land of neutrality, home of the big banks and sideliners,
+we’re going to <strong>SWITZERLAND</strong></li>
+<li>The closest city to Amsterdam in Switzerland is Basel, which is a
+short 80 min flight, this will be our first stop. we’ll grab a car to be
+mobile though.</li>
+</ul>
 </div>
-<div id="why" hidden="true">Because my favorite time of the year to appreciate everything nature has to provide is autumn, and guess what late October, its PEAK foliage season, like come on LOOK at this</div>
-<script type="text/javascript">
-function button_handler2() {
-  document.getElementById('show_swiss').hidden = false;
-  document.getElementById('swisspic').hidden = false;
-  document.getElementById('why').hidden = false;
-}
-</script>
+<div id="october-23rd-2023" class="section level2">
+<h2>October 23rd, 2023</h2>
+<ul>
+<li>Put on them bad bitch boots, we going for a hike. Mid-October to
+early-November is where we will the see the most
+<strong>VIBRANT</strong> colors</li>
+<li>Imagine the crisp breeze coming through as you stare into the open
+view of an array of <strong>RED</strong> , <strong>ORANGE</strong> and
+<strong>YELLOW</strong> leaves gently falling to the ground</li>
+<li>The distance between Basel and Zurich is about an hour, perhaps plan
+a hike along the way, find some <strong>STUNNING LAKE
+VIEWS</strong></li>
+<li>We should stay in Zurich to capitalize on its proximity to the Swiss
+Alps</li>
+</ul>
+</div>
+<div id="october-24th-2023" class="section level2">
+<h2>October 24th, 2023</h2>
+<ul>
+<li>Put them boots back on, we trekkin’ around the Alps!</li>
+<li>Visit some cute mountain-towns along the way: Interlaken, Lucerne,
+and Davos</li>
+</ul>
+</div>
+<div id="october-25th-2023" class="section level2">
+<h2>October 25th, 2023</h2>
+<ul>
+<li>I LOVED YESTERDAY, let’s do it again!!</li>
+<li>So…….we’re doing it again!</li>
+</ul>
+</div>
+<div id="october-26th-2023" class="section level2">
+<h2>October 26th, 2023</h2>
+<ul>
+<li>As the journey comes to an end, you reflect on the <em>adventure of
+a lifetime</em> feeling nothing but grateful for the time shared with
+all your friends, having enjoyed:
+<ul>
+<li>The <strong>AWE-INSPIRING, JAW-DROPPING</strong> performances by two
+legendary DJs</li>
+<li>The <strong>BREATH-TAKING</strong> architecture and art that
+Amsterdam has to provide</li>
+<li>The <strong>ASTONISHING</strong> view mother earth leaves for us to
+witness</li>
+</ul></li>
+</ul>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -418,6 +517,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

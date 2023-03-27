@@ -1,0 +1,66 @@
+---
+title: "Itinerary"
+output:
+  html_document: 
+    toc: true
+    toc_float: true
+---
+
+## Disclaimer
+
+- This a rough draft for now please go to the [ideaboard](./googlesheets.html) if you have ideas or want to join!
+
+## October 18th, 2023
+
+- Grab your passports, get on the plane, its time to cri
+- Flights out of LAX seem to be a lot cheaper, or perhaps you want to go to NYC the weekend before as a first-leg. How you get there is up to you!
+
+## October 19th, 2023
+
+- Check-in to the hotel/hostel/airbnb, it looks like staying near the Van Gogh Museum may prove ideal 
+- Cheese tasting: The Dutch eat a lot of cheese, so we definitely have to sample and purchase A TON of cheese, Albert Cuyp Market is apparently **THE** thing to do
+- Perhaps even visit the Van Gogh Museum, closes at 8pm
+- Gauge the level of ambition based on jetlag/energy levels, booze up with some locals?
+
+## October 20th, 2023
+
+- Hop on your bike! We goin' for a ride, taking in the beautiful scenery of Amsterdam's charming neighborhoods, **THE CANALS**, and other beautiful folksy historical landmarks
+- Every major metropolitan city in the world has world class art and design, I expect no less from Amsterdam. Put on your artist beret, it's time to visit galleries, museums, and shops. Maybe you'll go home with a piece of Dutch artwork from their 17th century global empire golden days
+- We're already in the Netherlands right? Time to pound some Heineys and visit the legendary Heineken brewery, go home with an engraved glass with your name on it
+- [TIME TO CRI](https://www.ticketmaster.nl/event/illenium-live-tickets/290771), did I mention if we stay near the Van Gogh, its a 10 minute walk?!?!
+
+
+## October 21st, 2023
+
+- We love ourselves some **CANALS**, so we'll go on a canal tour and learn more about Amsterdam's fascinating history and unique architecture. Give our legs a break and see the city from a different perspective.
+- Spare time we should go see what we grab stuff off the idea board of things to do
+- [ARE YOU READY?!?!](https://martingarrixade.com/)
+
+## October 22nd, 2023
+
+- Say goodbye to the 17th century, we jumping straight to the 19th century, to land of neutrality, home of the big banks and sideliners, we're going to **SWITZERLAND**
+- The closest city to Amsterdam in Switzerland is Basel, which is a short 80 min flight, this will be our first stop. we'll grab a car to be mobile though.
+
+## October 23rd, 2023
+
+- Put on them bad bitch boots, we going for a hike. Mid-October to early-November is where we will the see the most **VIBRANT** colors 
+- Imagine the crisp breeze coming through as you stare into the open view of an array of **RED** , **ORANGE** and **YELLOW** leaves gently falling to the ground
+- The distance between Basel and Zurich is about an hour, perhaps plan a hike along the way, find some **STUNNING LAKE VIEWS**
+- We should stay in Zurich to capitalize on its proximity to the Swiss Alps
+
+## October 24th, 2023
+
+- Put them boots back on, we trekkin' around the Alps!
+- Visit some cute mountain-towns along the way: Interlaken, Lucerne, and Davos
+
+## October 25th, 2023
+
+- I LOVED YESTERDAY, let's do it again!!
+- So.......we're doing it again!
+
+## October 26th, 2023
+
+- As the journey comes to an end, you reflect on the *adventure of a lifetime* feeling nothing but grateful for the time shared with all your friends, having enjoyed:
+  - The **AWE-INSPIRING, JAW-DROPPING** performances by two legendary DJs 
+  - The **BREATH-TAKING** architecture and art that Amsterdam has to provide
+  - The **ASTONISHING** view mother earth leaves for us to witness
