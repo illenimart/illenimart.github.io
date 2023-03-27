@@ -44,7 +44,7 @@ The **LEGENDARY** Martijn Gerard Garritsen, known for his stage name, MARTIN GAR
 
 Our **FAVORITE** hometown hero, Nicholas D. Miller, known for his stage name, ILLENIUM, is an American DJ, and more importantly king SADBOI. He has released four studio albums to date, with a fifth one coming shortly, in a short span of seven years. Illenium has skyrocketed up the charts faster than I ever could have imagined and there's no doubt in my mind his songs have pierced through your soul as well. Due to his popularity in the United States, our favorite sadboi only plays in massive venues now including football stadiums and it has proven rather difficult to see him in smaller intimate settings. AMSTERDAM is hosting our bay-area native in a 1500-person capacity venue and it is obviously a must see show, as his former roommate, Trevor, aka Said the Sky opens for him as well.
 
-We all know this feeling.... when 
+We all know this feeling....
 <style>
   audio {
     display: none;
@@ -90,27 +90,37 @@ We all know this feeling.... when
 </style>
 
 <div class="audio-player">
-  <button class="play-button">you hear this</button>
+  <span>when </span>
+  <button class="play-button">your hear this</button>
   <audio controls>
     <source src="Takeyoudown.mp3" type="audio/mpeg">
   </audio>
+  <span> you're finally able to take a breather from the headbanging as Illenium slows its down. The shock travels up your spine, sending chills across your now tingling arms and legs as you come up grasping for air in the heat of the BILL GRAHAM CIVIC AUDITORIUM. This is your chance, perhaps you ask for water, or perhaps its gum. A break to maybe take off your extra shirt you wore. Maybe you even wrap your arm around the person you're next to and tell them how much you love them and how special they are to you. Enveloped with goosebumps, you've taken those 80 seconds before the </span>
+ <button class="play-button">drop</button>
+  <audio controls>
+    <source src="Takeyoudown2.mp3" type="audio/mpeg">
+  </audio>
+  <span> comes to recalibrate and just take in the moment of what I can only call sadboi euphoria. **THESE ARE THE MOMENTS YOU LIVE FOR, THESE ARE THE MOMENTS BURNED INTO YOUR BRAINS AS MEMORIES**. Now imagine it in a room where there truly is no bad seat in the house, on vacation... in a foreign country. </span>
 </div>
 
 <script>
-  var audio = document.querySelector('.audio-player audio');
-  var playButton = document.querySelector('.audio-player .play-button');
+  var audioPlayers = document.querySelectorAll('.audio-player audio');
+  var playButtons = document.querySelectorAll('.audio-player .play-button');
   
-  playButton.addEventListener('click', function() {
-    if (audio.paused) {
-      audio.play();
-      playButton.classList.add('playing');
-    } else {
-      audio.pause();
-      playButton.classList.remove('playing');
-    }
+  playButtons.forEach(function(playButton, i) {
+    var audio = audioPlayers[i];
+    
+    playButton.addEventListener('click', function() {
+      if (audio.paused) {
+        audio.play();
+        playButton.classList.add('playing');
+      } else {
+        audio.pause();
+        playButton.classList.remove('playing');
+      }
+    });
   });
-</script> 
-you're finally able to take a breather from the headbanging as Illenium slows its down. The shock travels up your spine, sending chills across your now tingling arms and legs as you come up grasping for air in the heat of the BILL GRAHAM CIVIC AUDITORIUM. This is your chance, perhaps you ask for water, or perhaps its gum. A break to maybe take off your extra shirt you wore. Maybe you even wrap your arm around the person you're next to and tell them how much you love them and how special they are to you. Enveloped with goosebumps, you've taken those 80 seconds before the drop comes to recalibrate and just take in the moment of what I can only call sadboi euphoria. **THESE ARE THE MOMENTS YOU LIVE FOR, THESE ARE THE MOMENTS BURNED INTO YOUR BRAINS AS MEMORIES**. Now imagine it in a room where there truly is no bad seat in the house, on vacation... in a foreign country.
+</script>
 
 
 # BUT WAIT...... THERE'S MORE?!?!?!?!
