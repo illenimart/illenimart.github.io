@@ -44,8 +44,8 @@ output:
 ## October 23rd, 2023
 
 - Put on them bad bitch boots, we going for a hike. Mid-October to early-November is where we will the see the most **VIBRANT** colors 
-- Imagine the crisp breeze coming through as you stare into the open view of an array of **RED** , **ORANGE** and **YELLOW** leaves gently falling to the ground
-- The distance between Basel and Zurich is about an hour, perhaps plan a hike along the way, find some **STUNNING LAKE VIEWS**
+- Imagine the crisp breeze coming through as you stare into the open view of an array of <span style="color: red;">**RED**</span>, <span style="color: orange;">**ORANGE**</span> and <span style="color: yellow;">**YELLOW**</span> leaves gently falling to the ground
+- The distance between Basel and Zurich is about an hour, perhaps plan a hike along the way, find some <span style="color: blue;">**STUNNING LAKE VIEWS**</span>
 - We should stay in Zurich to capitalize on its proximity to the Swiss Alps
 
 ## October 24th, 2023

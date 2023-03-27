@@ -345,22 +345,82 @@ favorite sadboi only plays in massive venues now including football
 stadiums and it has proven rather difficult to see him in smaller
 intimate settings. AMSTERDAM is hosting our bay-area native in a
 1500-person capacity venue and it is obviously a must see show, as his
-former roommate, Trevor, aka Said the Sky opens for him as well. We all
-know this feeling…. when something like “Take You Down” comes on, when
-you’re finally able to take a breather from the headbanging as Illenium
-slows its down, hearing the guitar riff in the background, the shock
-traveling up your spine, sending chills across your now tingling arms
-and legs as you come up grasping for air in the heat of the BILL GRAHAM
-CIVIC AUDITORIUM. This is your chance, perhaps you ask for water, or
-perhaps its gum. A break to maybe take off your extra shirt you wore.
-Maybe you even wrap your arm around the person you’re next to and tell
-them how much you love them and how special they are to you. Enveloped
-with goosebumps, you’ve taken those 80 seconds before the drop comes to
-recalibrate and just take in the moment of what I can only call sadboi
-euphoria. <strong>THESE ARE THE MOMENTS YOU LIVE FOR, THESE ARE THE
-MOMENTS BURNED INTO YOUR BRAINS AS MEMORIES</strong>. Now imagine it in
-a room where there truly is no bad seat in the house, on vacation… in a
-foreign country.</p>
+former roommate, Trevor, aka Said the Sky opens for him as well.</p>
+We all know this feeling…. when
+<style>
+  audio {
+    display: none;
+  }
+  
+  .play-button {
+    background: none;
+    color: #4CAF50;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .play-button:hover {
+    text-decoration: none;
+  }
+  
+  .play-button:focus {
+    outline: none;
+  }
+  
+  .play-button::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-right: 0.25em;
+    vertical-align: middle;
+    border-top: 0.3em solid transparent;
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.5em solid currentColor;
+  }
+  
+  .playing .play-button::before {
+    content: "\23F9";
+    margin-right: 0.5em;
+  }
+  
+  .playing audio {
+    display: block;
+  }
+</style>
+<div class="audio-player">
+<p><button class="play-button">you hear this</button> <audio controls>
+<source src="Takeyoudown.mp3" type="audio/mpeg"> </audio></p>
+</div>
+<script>
+  var audio = document.querySelector('.audio-player audio');
+  var playButton = document.querySelector('.audio-player .play-button');
+  
+  playButton.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+      playButton.classList.add('playing');
+    } else {
+      audio.pause();
+      playButton.classList.remove('playing');
+    }
+  });
+</script>
+<p>you’re finally able to take a breather from the headbanging as
+Illenium slows its down. The shock travels up your spine, sending chills
+across your now tingling arms and legs as you come up grasping for air
+in the heat of the BILL GRAHAM CIVIC AUDITORIUM. This is your chance,
+perhaps you ask for water, or perhaps its gum. A break to maybe take off
+your extra shirt you wore. Maybe you even wrap your arm around the
+person you’re next to and tell them how much you love them and how
+special they are to you. Enveloped with goosebumps, you’ve taken those
+80 seconds before the drop comes to recalibrate and just take in the
+moment of what I can only call sadboi euphoria. <strong>THESE ARE THE
+MOMENTS YOU LIVE FOR, THESE ARE THE MOMENTS BURNED INTO YOUR BRAINS AS
+MEMORIES</strong>. Now imagine it in a room where there truly is no bad
+seat in the house, on vacation… in a foreign country.</p>
 </div>
 </div>
 <div id="but-wait-theres-more" class="section level1">
