@@ -1,0 +1,80 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          4.8810756,
+          52.3584159
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13990476974401570074",
+        "Location": {
+          "Address": "Museumplein 6, 1071 DJ Amsterdam, Netherlands",
+          "Business Name": "Van Gogh Museum",
+          "Country Code": "NL",
+          "Geo Coordinates": {
+            "Latitude": "52.3584159",
+            "Longitude": "4.8810756"
+          }
+        },
+        "Published": "2023-03-28T00:04:35Z",
+        "Title": "Van Gogh Museum",
+        "Updated": "2023-03-28T00:04:35Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.8881543,
+          52.3414484
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11569527158754808632",
+        "Location": {
+          "Address": "Europaplein 24, 1078 GZ Amsterdam, Netherlands",
+          "Business Name": "Amsterdam RAI",
+          "Country Code": "NL",
+          "Geo Coordinates": {
+            "Latitude": "52.3414484",
+            "Longitude": "4.8881543"
+          }
+        },
+        "Published": "2023-03-28T00:04:16Z",
+        "Title": "Amsterdam RAI",
+        "Updated": "2023-03-28T00:04:16Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.8812489,
+          52.3647860
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=8621628212772783328",
+        "Location": {
+          "Address": "Lijnbaansgracht 234A, 1017 PH Amsterdam, Netherlands",
+          "Business Name": "Melkweg",
+          "Country Code": "NL",
+          "Geo Coordinates": {
+            "Latitude": "52.3647860",
+            "Longitude": "4.8812489"
+          }
+        },
+        "Published": "2023-03-28T00:04:03Z",
+        "Title": "Melkweg",
+        "Updated": "2023-03-28T00:04:03Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+---
+title: "Where we are going in Amsterdam"
+output: html_document
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+# Load the required packages
+library(sf)
+library(jsonlite)
+library(tidyverse)
+library(mapview)
+library(leaflet)
+library(leafpop)
+
+justjson <- fromJSON("Saved Places.json", flatten = TRUE)[[2]]
+names(justjson) <- str_replace_all(names(justjson), "geometry.|properties.|Location.|Geo Coordinates.", "")
+
+justjson <- justjson %>% 
+  select(Title, Address, Longitude, Latitude) %>% 
+  mutate(Longitude = as.numeric(Longitude),
+         Latitude = as.numeric(Latitude))
+
+locations_sf <- st_as_sf(justjson, coords = c("Longitude", "Latitude"), crs = 4326)
+
+mapview(locations_sf, popup = popupTable(locations_sf, zcol = c("Title", "Address")))
+```

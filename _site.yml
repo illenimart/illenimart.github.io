@@ -5,6 +5,8 @@ navbar:
   left:
     - text: "Itinerary"
       href: itinerary.html
+    - text: "Map of Stuff"
+      href: mapofstuff.html
     - text: "Ideaboard"
       href: googlesheets.html
   right:
